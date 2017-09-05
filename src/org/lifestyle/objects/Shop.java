@@ -1,0 +1,46 @@
+package org.lifestyle.objects;
+
+public class Shop{
+
+	private String name;
+	private String price;
+	private int index;
+	
+	
+	public Shop(String name, String price, int index){
+		this.name = name;
+		this.price = price;
+		this.index = index;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(String price) {
+		this.price = price;
+	}
+
+
+	public int getIndex() {
+		return index;
+	}
+
+
+	public void setIndex(int index) {
+		this.index = index;
+	}
+
+}
